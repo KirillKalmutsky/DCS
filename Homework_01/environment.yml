@@ -1,0 +1,11 @@
+name: Homework_01
+channels:
+  - defaults
+dependencies:
+  - pip=20.3
+  - python=3.8.5
+  - wheel=0.36.0
+  - pip:
+    - numpy==1.18.5
+    - pandas==1.0.5
+prefix: /opt/anaconda3/bin/python/envs/Homework_01
