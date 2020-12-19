@@ -8,4 +8,4 @@ RUN conda env update -f environment.yml -n base
 
 COPY app.py home/app.py
 
-CMD [ "python", "home/app.py" ]
+CMD ["python", "home/app.py" ]

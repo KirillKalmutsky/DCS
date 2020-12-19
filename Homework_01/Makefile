@@ -4,10 +4,10 @@ build:
 stop:
 	docker stop hw1
 
-start:
+run:
 	docker run --rm -it --name hw1 homework01:latest
 
 delete:
-	docker rm -f hw1
+	docker rmi -f homework01
 
-setup: build start
+setup: build run
