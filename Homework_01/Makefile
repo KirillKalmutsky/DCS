@@ -11,6 +11,6 @@ run:
 	python3 app.py
 
 delete:
-	docker rmi -f homework01
+	docker rmi -f homework01:latest
 
-setup: build run
+setup: build run_docker
