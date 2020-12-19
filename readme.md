@@ -1,4 +1,4 @@
-# Homeworks for DCS coures
+# Homeworks for DCS course
 
 ## Homework 01
 
